@@ -8,9 +8,10 @@ const Home = () => {
 	return (
 	<div className="traffic-light">
 		<div className="container bg-dark">
-			<div className="light"></div>
-			<div className="light"></div>
-			<div className="light"></div>
+			<div className="stick"></div>
+			<div className="light bg-danger"></div>
+			<div className="light bg-warning"></div>
+			<div className="light bg-success"></div>
 		</div>
 	</div>	
 	);
