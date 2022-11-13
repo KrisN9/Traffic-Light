@@ -1,19 +1,14 @@
 import React from "react";
-
-//include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+import Light from "./light";
 
 //create your first component
 const Home = () => {
 	return (
-	<div className="traffic-light">
-		<div className="container bg-dark">
-			<div className="stick"></div>
-			<div className="light bg-danger"></div>
-			<div className="light bg-warning"></div>
-			<div className="light bg-success"></div>
-		</div>
-	</div>	
+		<div className="text-center">
+			<Light style={"red"} />
+			<Light style={"yellow"} />
+			<Light style={"green"} />
+		</div>	
 	);
 };
 
