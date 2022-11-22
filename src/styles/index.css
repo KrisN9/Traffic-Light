@@ -1,14 +1,27 @@
-.light {
+.red {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-}
-.red {
-    background: red;
+    background: rgb(241, 97, 97);
 }
 .yellow {
-    background: yellow;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(185, 185, 74);
 }
 .green {
-    background: green;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: rgb(98, 222, 98);
+}
+.red-on {
+    background-color: red;
+}
+.yellow-on {
+    background-color: yellow;
+}
+.green-on {
+    background-color: green;
 }
