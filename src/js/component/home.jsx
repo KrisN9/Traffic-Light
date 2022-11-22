@@ -6,8 +6,8 @@ const Home = () => {
 
 	return (
 		<>
+		<div className="traffic-top"></div>
 		<div className="traffic-light">
-			<div className="pole"></div>
 			<div onClick={() => setLight("red")} className={"light red"+(light === "red" ? " red-on" : "")}></div>
 			<div onClick={() => setLight("yellow")} className={"light yellow"+(light === "yellow" ? " yellow-on" : "")}></div>
 			<div onClick={() => setLight("green")} className={"light green"+(light === "green" ? " green-on" : "")}></div>

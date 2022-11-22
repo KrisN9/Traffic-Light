@@ -1,14 +1,15 @@
-* {
-    box-sizing: border-box;
+.traffic-top {
+    width: 13px;
+    height: 100px;
+    margin-left: 124px;
+    background-color: black;
 }
 .traffic-light {
     background-color: black;
     padding: 10px;
-    padding-left: 1px;
+    padding-left: 10px;
     display: inline-block;
-    margin: auto;
-    margin-top: 5px;
-    text-align: center;
+    margin-left: 80px;
     border-radius: 10px;
 }
 .light {
